@@ -1,0 +1,35 @@
+#Caesar
+testlist = input ("Simple message (one word, lower case): \n")
+
+print()
+print()
+
+numbers = []
+k = input("key (1-26) or use minus to unscramble: ")
+print()
+print(k)
+print ()
+letters = testlist
+number = [ord(letter) - 96 for letter in letters]
+code = (testlist)
+print(code)
+
+
+for number in numbers:
+  letter = chr (number)
+print (number)
+
+print()
+
+for letter in letters:
+  print([ ord (letter) - 96 + int(k) ])
+list = ([ ord (letter) - 96 + int(k) ])
+
+
+my_string = letters
+difference = k
+new_string = " " .join ((chr(97 + (ord(letter) - 97 +int(k)) % 26) for letter in my_string))
+print("new code: " + new_string)
+
+
+
