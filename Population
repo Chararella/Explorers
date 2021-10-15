@@ -1,0 +1,21 @@
+def_main:()
+#llamas
+print ("Population Growth.")  
+print()
+print ("How many Llamas do we start with?\n",)
+a = input()
+print ("Llama count over how many years?\n",)
+b = input()
+b = int(b)
+k = 0
+update = 0
+while k in range (b):
+  
+  a = ( int(a) + int(a)/3 - int(a)/4 )
+  a = int(a)
+  #print(a)
+  k +=1
+
+print ("You will have", a, "Llamas over", b, "year(s).\n",)
+
+
