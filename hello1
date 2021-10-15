@@ -1,0 +1,20 @@
+print ("Hello, what is your name?\n")
+aa = input()
+print()
+
+string = "Hello"
+new_string = string.center(24, "*")
+print("Your ticket: ",new_string)
+
+string1 = aa
+new_string1 = aa.center(28, " ")
+print("Your Name: ",new_string1)
+
+string2 = "Admit 1"
+new_string2 = string2.center(24, "*")
+print("Your seating: ",new_string2)
+
+print()
+print()
+print("Hello,", aa, ".")
+print("Go ahead to your seat.")
