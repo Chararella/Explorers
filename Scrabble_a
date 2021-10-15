@@ -1,0 +1,49 @@
+def scrabble_score(word):
+   print()
+import random
+print ("Competitive Scrabble!")
+print()
+print ("Your word 1-7 letters: ")
+print()
+archive = ["BLOSSOM", "TRACE", "CLIMATE", "FUNFAIR", "PRETZEL", "MARTYR", "TRAVEL",
+ "PRODIGY", "TRIFLE", "COACH"]
+archive = random.choice (archive)
+print ("Player 1: ", end = "")
+print (archive)
+print ("Player 2: ", end = "")
+
+
+score = 0
+score1 = 0
+points = {"A": 1, "B": 3, "C": 3, "D": 2, "E": 1, "F": 4, "G": 2, "H": 4, "I": 1,
+"J": 8, "K": 5, "L": 1, "M": 3, "N": 1, "O": 1, "P": 3, "Q": 10, "R": 1, "S": 1,
+"T": 1, "U": 1, "V": 4, "W": 4, "X": 8, "Y": 4, "Z": 10}
+
+
+
+word = input("")
+word = word.upper()
+print ()
+print ()
+for letter in word:
+  score = score + points[letter]
+print (word, "is worth", score, "points.")
+print ()
+
+
+archive = archive.upper()
+for letter in archive:
+  score1 = score1 + points[letter]
+print (archive, "is worth", score1, "points.")
+print ()
+
+
+
+if score1 > score:
+  print ("Player 1 wins!")
+if score1 < score:
+  print ("Player 2 wins!")
+elif score1 == score:
+  print ("We have a tie!")
+
+

@@ -1,0 +1,182 @@
+def_main:()
+print()
+print ("Welcome to Scrabble!\n",)
+import random
+print("Your letters, please!       [Press Return]\n",)
+print ("Player 1: ")
+x = 0
+for x in range(7):
+   letters = ["A", "A", "A", "B", "C", "C", "D", "E", "E", "E", "F", "G", "G", "H", "H", "I", "I", "I", "J", "K", "L", "L", "M", "N", "N", "O", "O", "O", "P", "R", "R", "S", "S", "S", "T", "T", "U", "U", "V", "W", "X"]   
+   letters = random.choice (letters)
+   input()
+   print (letters)
+   x += 1
+print ()
+print ("Player 2: ")
+y = 0
+for y in range (7):
+  letters = ["A", "A", "A", "B", "C", "C", "D", "E", "E", "E", "F", "G", "G", "H", "H", "I", "I", "I", "J", "K", "L", "L", "M", "N", "N", "O", "O", "O", "P", "R", "R", "S", "S", "S", "T", "T", "U", "U", "V", "W", "X"] 
+  letters = random.choice (letters)
+  input()
+  print (letters)
+  y += 1
+print()
+print ("One letter at a time, please!")
+print ("Player 1, your highest score word please:\n",)
+a = input("\n",)
+b = input("\n",)
+c = input("\n",)
+d = input("\n",)
+e = input("\n",)
+f = input("\n",)
+g = input("\n",)
+
+
+print()
+print ("One letter at a time, please!")
+print ("Player 2, your highest score word please:\n",)
+i = input("\n",)
+j = input("\n",)
+k = input("\n",)
+l = input("\n",)
+m = input("\n",)
+o = input("\n",)
+p = input("\n",)
+
+print ("Calculating your scores: ")
+print()
+print ("Player 1: ")
+s = 0
+if (a or b or c or d or e or f or g) == "A":
+  s += 1
+else: 
+    (a or b or c or d or e or f or g) == "B"
+s += 3
+if (a or b or c or d or e or f or g) == "C":
+  s += 3
+else: 
+  (a or b or c or d or e or f or g) == "D"
+s += 2
+if (a or b or c or d or e or f or g) == "E":
+   s += 1
+else:             
+  (a or b or c or d or e or f or g) == "F"
+s += 4
+if (a or b or c or d or e or f or g) == "G":
+  s += 2
+else: 
+  (a or b or c or d or e or f or g) == "H"
+s += 4
+if (a or b or c or d or e or f or g) == "I":
+    s += 1   
+else:
+  (a or b or c or d or e or f or g) == "J"
+s += 8   
+if (a or b or c or d or e or f or g) == "K":
+    s += 5   
+else: 
+  (a or b or c or d or e or f or g) == "L"
+s += 1 
+if (a or b or c or d or e or f or g) == "M":
+    s += 3 
+else: 
+  (a or b or c or d or e or f or g) == "N"
+s += 1
+if (a or b or c or d or e or f or g) == "O":
+    s += 1
+else: 
+  (a or b or c or d or e or f or g) == "P"
+s += 3
+if (a or b or c or d or e or f or g) == "R":
+    s += 1
+else:
+  (a or b or c or d or e or f or g) == "S"
+s += 1    
+if (a or b or c or d or e or f or g) == "T":
+    s += 1   
+else: 
+  (a or b or c or d or e or f or g) == "U"
+s += 1    
+if (a or b or c or d or e or f or g) == "V":
+    s += 4   
+else:
+  (a or b or c or d or e or f or g) == "W"
+s += 4  
+if (a or b or c or d or e or f or g) == "X":
+  s += 8   
+    
+print (s)
+
+print()
+print("Player 2: ")
+t = 0
+if (i or j or k or l or m or o or p) == "A":
+  t += 1
+else: 
+    (i or j or k or l or m or o or p) == "B"
+t += 3
+if (i or j or k or l or m or o or p) == "C":
+  t += 3
+else: 
+    (i or j or k or l or m or o or p) == "D"
+t += 2
+if (i or j or k or l or m or o or p) == "E":
+  t += 1
+else: 
+    (i or j or k or l or m or o or p) == "F"
+t += 4
+if (i or j or k or l or m or o or p) == "G":
+  t += 2
+else: 
+    (i or j or k or l or m or o or p) == "H"
+t += 4
+if (i or j or k or l or m or o or p) == "I":
+  t += 1
+else: 
+  (i or j or k or l or m or o or p) == "J"
+t += 8
+if (i or j or k or l or m or o or p) == "K":
+   t += 5
+else:             
+  (i or j or k or l or m or o or p) == "L"
+t += 1
+if (i or j or k or l or m or o or p) == "M":
+  t += 3
+else: 
+  (i or j or k or l or m or o or p) == "N"
+t += 1
+if (i or j or k or l or m or o or p)  == "O":
+    t += 1   
+else:
+  (i or j or k or l or m or o or p) == "P"
+t += 3  
+if (i or j or k or l or m or o or p) == "R":
+    t += 5   
+else: 
+  (i or j or k or l or m or o or p) == "S"
+t += 1 
+if (i or j or k or l or m or o or p) == "T":
+    t += 3 
+else: 
+  (i or j or k or l or m or o or p) == "U"
+t += 1
+if (i or j or k or l or m or o or p) == "V":
+    t += 4
+else: 
+  (i or j or k or l or m or o or p) == "W"
+t += 4
+if (i or j or k or l or m or o or p) == "X":
+    t += 8
+
+print (t)
+
+if s > t:
+  print ("Player 1 Wins!")
+if s < t:
+  print ("Player 2 Wins!")
+if s == t:
+  print ("We have a Tie!")
+  
+  
+  
+
