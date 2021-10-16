@@ -1,0 +1,94 @@
+print("*** Runoff ***")
+print()
+print("Vote: Alice, Bob, Charlie")
+print()
+from collections import Counter
+total = 0
+votes_list = []
+votes_numbers = []
+votes_first = []
+votes_second = []
+votes_third = []
+number_votes = input("Number of Ballots (1-5): ")
+print()
+for i in range (int(number_votes) ):
+   list_a = input("Rank 1:  ")
+   print()
+   votes_first.append(list_a)
+
+   list_b = input("Rank 2:  ")
+   print()
+   votes_second.append(list_b)
+
+
+   list_c = input("Rank 3:  ")
+   votes_third.append(list_c)
+
+   empty_list = []
+   empty_list.append(i)
+   print(empty_list)
+
+   print()
+   print()
+
+
+
+   votes_numbers.append(number_votes)
+for product in list_c[:1]:
+  split = product.split(".")
+  for line in split:
+    if line in list_c:
+
+
+      print("First: ",votes_first)
+  print()
+  print("Second: ",votes_second)
+  print()
+  print("Third: ",votes_third)
+  print()
+
+def most_common_element(votes_first):
+  y == 0
+y = (max(set(votes_first), key = votes_first.count))
+y = max(set(votes_first), key = votes_first.count)
+print (y, "could win the election." )
+
+
+x = max(set(votes_third), key = votes_third.count)
+print()
+print()
+
+s = max(set(votes_first), key = votes_first.count)
+t = max(set(votes_third), key = votes_third.count)
+
+
+if s == t:
+  if s+s == t+t:
+     print ("There seems to be a three-way tie.")
+print("Eliminate", t)
+print("Keep", s)
+print()
+print(s, "wins the election!")
+print()
+while i < (2):
+  if votes_first.contains(t):
+   votes_first.remove(t)
+   i += -1
+   #print(votes_first)
+
+all_occurences = []
+last_found_index = -1
+element_found = True
+
+while element_found:
+  try:
+    last_found_index = votes_first.index(t, last_found_index + 1 )
+    all_occurences.append(last_found_index)
+  except ValueError:
+    element_found = False
+
+v = s
+print()
+v= max(set(votes_first), key= votes_first.count)
+print("The Winner is ",v, "!!!")
+
