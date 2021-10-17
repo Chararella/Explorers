@@ -1,0 +1,32 @@
+print("*** This program is called Recover! ***")
+print()
+def reverse(sequence):
+	sequence_type = type(sequence)
+	empty_sequence = sequence_type()
+	
+	if sequence == empty_sequence:
+		return empty_sequence
+	
+	rest = reverse(sequence[1:])
+	first_sequence = sequence[0:1]
+	
+	final_result = rest + first_sequence
+	return final_result
+
+a = input("Enter a string of numbers: \n")
+print ()
+b = input("Enter a string of text: \n")
+print()
+print(reverse(a))
+print(reverse(b))
+print()
+print("-----------------------------------------------")
+print()
+print("Warning! File has not been saved. Press return key to retrieve:")
+print()
+print("-----------------------------------------------")
+c = input()
+print()
+print(a)
+print(b)
+#########
