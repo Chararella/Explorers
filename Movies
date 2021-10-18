@@ -1,0 +1,1022 @@
+#movies
+print ("Night at the Movies!")
+print ()
+def main():
+    print()
+t = 0
+print ("Familiarity breeds convivality, right? A whole host of good") 
+print ("movies are on TV tonight at the same time. How do you decide")
+print ("which movies to watch? Based on existing knowledge, AI has")
+print ("all the answers.")
+print ()
+print ("Press enter to continue.")
+az = input()
+print ("\033[H\033[J")
+print ("*** Part One ***")
+print ()
+print ("In which order were these Harry Potter movies released?")
+print ()
+print ("A.Harry Potter and the Goblet of Fire.")
+print ("B.Harry Potter and the Chamber of Secrets.")
+print ("C.Harry Potter and the Deathly Hallows Part 2.")
+print ("D.Harry Potter and the Half-blood Prince.")
+print ("E.Harry Potter and the Prizoner of Azkaban.")
+print ("F.Harry Potter and the Deathly Hallows Part 1.")
+print ("G.Harry Potter and the Order of the Phoenix.")
+print ("H.Harry Potter and the Philosopher's Stone.")
+print ()
+print ("D A F G B E H C")
+print ()
+print ("H B E A G D F C")
+print ()
+print ("A B C D E F G H")
+print () 
+print ("B H F A D C E G")
+print ()
+aa = 0
+aa = input()
+print ()
+if aa == "H B E A G D F C":
+  print ("Score 15 points!")
+  t += 10
+elif aa == "D A F G B E H C":
+  print ("Score 5 points!")
+  t == 5
+elif aa == ("B H F A D C E G"):
+  print ()
+  print ("Score 5 points!")
+  t += 5
+else:
+  print("Score 0 points.")
+print ("Press enter to continue.")
+ab = input() 
+print ("\033[H\033[J")
+print ("*** Part Two ***")
+print ()
+print ("A                           B")
+print ("The Dark Knight.            The Incredible Hulk.")
+print ("Twilight.                   Step Brothers.")
+print ("Iron Man.                   Taken.")
+print ()
+
+print ("C                            D")
+print ("Slumdog Millionaire.         The Spy Next Door.")
+print ("The Happening.               Quantum of Solace.")
+print ("WALL-E.                      Rambo.")
+print ()
+
+print ("E                             F")
+print ("Changeling.                   Cloverfield")
+print ("The Reader.                   The House Bunny.")
+print ("***** and the City.           Seven Pounds.")
+print ()
+
+print ("Which set of movies contains 3 movies released in 2008?")
+print ()
+print ("a. A and C.")
+print ("b. D.")
+print ("c. B, E and F.")
+print ("d. All except D.")
+print ()
+ac = input()
+if ac == "a" or "c":
+   print ("Score 5 points!")
+   t += 5
+if ac == "d":
+   print ("Score 20 points!")
+   t += 20
+else:
+   print ("Score 0 points.")
+print()
+print ("Press enter to continue.")
+ae = input()
+print ("\033[H\033[J")
+print ("*** Part Three ***")
+print ()
+print ("In which year is Emma Stones date of birth?")
+print ("a. 1974")
+print ("b. 1979")
+print ("c. 1988")
+print ("d. 2003")
+print ()
+print ("Hint: It is a leap year.")
+j = 0
+for j in range (5):
+   print ("Enter a year: ")
+   x = int(input())
+   if (x)%4 != 0:
+     print ("Not a leap year.")
+   elif (x)% 100 != 0:
+     print ("Leap year.")
+   elif (x) %400 != 0:
+      print ("Not a leap year.")
+
+j += 1    
+print ()
+af = 0
+print ("What is your best guess? (a, b, c or d)")
+ag = input()
+if ag == "c":
+     print ("Score 25 points.")
+     t += 10
+else:
+     print ("Score 0 points.")
+	
+print ()
+print ("Press enter to continue.")
+af = input()
+print ("\033[H\033[J")
+print ("*** Part Four ***")
+print ()
+print ("A Prayer Before Dawn")
+print ("Bisbee '17 ")
+print ("Burning")
+print ("Filmworker")
+print ("First Reformed")
+print ("Leave No Trace")
+
+print ("Love After Love")
+print ("The Endless")
+print ("The Favourite")
+print ("Thunder Road")
+print ("Paddington 2")
+print ("You Were Never Really Here")
+print ("Zama")
+print ()
+print ("Which year were these movies released?")
+ai = input()
+if af == "2018":
+    print ("Score 20 points!")
+    t += 20
+elif af == "2010" or "2020":
+    print ("Score 10 points!")
+    t += 10
+elif af == "2016" or "2017" or "2019":
+    print ("Score 5 points!")
+    t += 5
+else:
+    print ("Score 0 points.")
+print ()
+print ("Press enter to continue.")
+aj = input()
+print ("\033[H\033[J")
+print ("*** Part Five ***")
+print ()
+print ("A. A Stage of Twilight             F. Avatar 2") 
+print ("B. Supernova                       G. Nobody")
+print ("C. The Endless                     H. Proof")
+print ("D. 1000: THe Sword in the Stone    I. Babylon")
+print ("E. Eden II ")
+print ()
+print ("These movies, due to be released at a future date can be paired")
+print ("up by release date leaving one movie already released in 2018." )
+print ("Which movie is without a pair?")
+print ()
+ak = input()
+if ak == "C":
+    print ("Score 30 points")
+    t += 30
+else:
+    print ("Score 0 points.")
+print ("Press enter to continue.")
+al = input()
+print ("\033[H\033[J")
+print ("*** Part Six ***")
+print ()
+print ("A. Joker II")
+print ("B. Swarm")
+print ("C. Merise Merise")
+print ("D. Homebody")
+print ("E. The Great Escape of Mr. Swag Boss")
+print ("F. This is Jessica")
+print ("G. Good Morning, Good Afternoon, Good Evening")
+print ("H. Lemon Cake")
+print ("I. Retrospect")
+print ("J. Nightshift")
+print ("K. What I Can't Tell You")
+print ()
+print ("All of these movies have received an IMDb rating of 10.0")
+print ("They were all but one released in 2021. Which movie was")
+print ("released in 2016?")
+print ()
+am = input()
+if am == "H": 
+    print ("Score 35 points.")
+    t += 35
+else:
+	print ("Score 0 points.")
+print ()
+print ("Press enter to continue.")
+an = input()
+print ("\033[H\033[J")
+print ("*** Part Seven ***")
+print ()
+print ("The Hunger Games, 7.2")
+print ("Django Unchained, 8.4")
+print ("The Dark Knight Rises, 8.4")
+print ("Pitch Perfect, 7.1")
+print ("The Impossible, 7.6")
+print ("Jump Street, 7.2")
+print ("Prometheus, 7.2")
+print ("The Hunt, 8.3")
+print ("Skyfall, 7.7")
+print ("Jack Reacher, 7.0")
+print ("Moonrise Kingdom, 7.8")
+print ("Savages, 6.5")
+print ("The Master, 7.2")
+print ("Ted, 6.9")
+print ()
+print ("These movies were all released in 2016.")
+print ("What is the avarage rating of all 14 movies?")
+print ()
+print ("A. 7.2")
+print ("B. 7.3")
+print ("C. 7.5")
+print ("D. 7.7")
+print ()
+ao = input()
+if ao == "A":
+    print ("Score 5 points!")
+    t += 5
+elif ao == "B":
+    print ("Score 5 points!")
+    t += 5
+elif ao == "C":
+    print ("Score 20 points!")
+    t += 20
+elif ao == "D":
+    print ("Score 5 points!")
+    t += 5
+else:
+    print ("Score 0 points.")
+print ()
+print ("Press enter to continue.")
+ao = input()
+print ("\033[H\033[J")
+print ("*** Part Eight ***")
+print ()
+print ("Here is a list of stars, movies and birthdays.")
+print ("Each of these people starred in a 2004 movie.")
+print ()
+print ("Leonardo DiCapio, Shutter Island, dob. 1974.")
+print ("Gwyneth Paltrow, Iron Man 2, dob. 1972.")
+print ("Sylvester Stalone, The Expendables, dob. 1946")
+print ("Sarah Jessica Parker, ***** and the City(2), dob. 1953")
+print ("Natalie Portmab, Black Swan, dob. 1981")
+print ("Justin Timberlake, The Social Network, dob. 1981")
+print ("Julie Andrews, Despicable Me, dob. 1935")
+print ("Jeff Bridges, The Door in the Floor, dob. 1949")
+print ()
+print ("Enter the birth years in any order: ")
+print ()
+#b = input()
+#stars = []
+#stars.sort()
+#print (stars)
+
+import random
+random_list = 0
+n = 0
+o = 0
+p = 0
+i = 0
+print ("Enter birth year: ")
+ca = input()
+print ("Enter birth year: ")
+cb = input()
+print ("Enter birth year: ")
+cc = input()
+print ("Enter birth year: ")
+cd = input()
+print ("Enter birth year: ")
+ce = input()
+print ("Enter birth year: ")
+cf = input()
+print ("Enter birth year: ")
+cg = input()
+print ("Enter birth year: ")
+ch = input()
+random_list = [ca, cb, cc, cd, ce, cf, cg, ch]
+random_list.sort()
+print ()
+print ("Years sorted in chronological order:")
+print ()
+print (random_list)
+print ()
+print ("Score 25 points!")
+t += 25
+print ()
+print ("Press enter to continue.")
+ci = input()
+print ("\033[H\033[J")
+print ("*** Part Nine ***")
+print ()
+A = {"Movie":"Submarine", "rating": 7.3}
+B = {"Movie":"Black Swan", "rating": 8.0}
+C = {"Movie":"Never Let Me Go", "rating": 7.1}
+D = {"Movie":"All Good Things", "rating": 6.3}
+E = {"Movie":"Faster", "rating": 6.4}
+F = {"Movie":"Rabbit Hole", "rating": 7.0}
+G = {"Movie":"Greenberg", "rating": 6.1}
+H = {"Movie":"The Fight", "rating": 7.8}
+I = {"Movie":"Salt", "rating": 6.4}
+J = {"Movie":"Easy A", "rating": 7.0}
+#print ( A["Movie"] )
+ee = 0
+i = 0
+random_list =[]
+random_table = []
+xa = 0
+xb = 0
+xc = 0
+
+
+ 
+A = {"Movie":"Submarine", "rating": 7.3}
+B = {"Movie":"Black Swan", "rating": 8.0}
+C = {"Movie":"Never Let Me Go", "rating": 7.1}
+D = {"Movie":"All Good Things", "rating": 6.3}
+E = {"Movie":"Faster", "rating": 6.4}
+F = {"Movie":"Rabbit Hole", "rating": 7.0}
+G = {"Movie":"Greenberg", "rating": 6.1}
+H = {"Movie":"The Fight", "rating": 7.8}
+I = {"Movie":"Salt", "rating": 6.4}
+J = {"Movie":"Easy A", "rating": 7.0}
+
+ee = 0
+i = 0
+random_list =[]
+random_table = []
+
+for i in range (1):
+    print ("Can you sort these 2010 movies by highest rating first?")
+    print ()
+    print ("Press enter to continue.")
+    ee == input()
+    if ee == "A":
+      print()
+    print (A["Movie"],", ", A["rating"])
+    random_table.append(A["Movie"])
+    random_list.append(A["rating"])
+    random_list = sorted (random_list, reverse = True)
+    print (random_list)
+    print()
+    
+    if ee == "B":
+      print()
+    eg = input()
+    print (B["Movie"],", ", B["rating"])
+    random_table.append(B["Movie"])
+    random_list.append(B["rating"])
+    random_list = sorted (random_list, reverse = True)
+    print (random_list)
+    print()
+    
+    if ee == "C":
+      print()
+    eh = input()
+    print (C["Movie"],", ", C["rating"])
+    random_table.append(C["Movie"])
+    random_list.append(C["rating"])
+    random_list = sorted (random_list, reverse = True)
+    print (random_list)
+    print()
+    
+    if ee == "D":
+      print()
+    ei = input()
+    print (D["Movie"],", ", D["rating"])
+    random_table.append(D["Movie"])
+    random_list.append(D["rating"])
+    random_list = sorted (random_list, reverse = True)
+    print (random_list)
+    print()
+    
+    if ee == "E":
+      print()
+    ej = input()
+    print (E["Movie"],", ", E["rating"])
+    random_table.append(E["Movie"])
+    random_list.append(E["rating"])
+    random_list = sorted (random_list, reverse = True)
+    print (random_list)
+    print()
+    
+    if ee == "F":
+      print()
+    ek = input()
+    print (F["Movie"],", ", F["rating"])
+    random_table.append(F["Movie"])
+    random_list.append(F["rating"]) 
+    random_list = sorted (random_list, reverse = True)
+    print (random_list)
+    print()
+    
+    if ee == "G":
+      print()
+    el = input()
+    print (G["Movie"],", ", G["rating"])
+    random_table.append(G["Movie"])
+    random_list.append(G["rating"])
+    random_list = sorted (random_list, reverse = True)
+    print (random_list)
+    print()
+    
+    if ee == "H":
+      print()
+    em = input()
+    print (H["Movie"],", ", H["rating"])
+    random_table.append(H["Movie"])
+    random_list.append(H["rating"])
+    random_list = sorted (random_list, reverse = True)
+    print (random_list)
+    print()
+    
+    if ee == "I":
+      print()
+    xn = input()
+    print (I["Movie"],", ", I["rating"])
+    random_table.append(I["Movie"])
+    random_list.append(I["rating"])
+    random_list = sorted (random_list, reverse = True)
+    print (random_list)
+    print()
+    
+    if ee == "J":
+      print()
+    xo = input()
+    print (J["Movie"],", ", J["rating"])
+    random_table.append(J["Movie"])
+    random_list.append(J["rating"])
+    random_list = sorted (random_list, reverse = True)
+    print (random_list)
+    print()
+
+print ("Score 15 points!")
+t += 15
+
+fc = 0
+print ("Press enter to continue.")
+fc = input()
+print ("\033[H\033[J")
+print ("*** Part Ten ***")
+print ()
+print ("How many of these people starred in Toy Story?")
+print ()
+fa = 0
+print ("1. Tom Hanks, (Woody)")
+print ("2. Tim Allen, (Buzz Lightyear)")
+print ("3. Don Rickles, (Mr Potatohead)")
+print ("4. Jim Varney, (Slinky Dog)")
+print ("5. Wallace Shawn, (Rex)")
+print ("6. John Ratzenberger, (Hamm)")
+print ("7. Annie Pots, (Bo Peep)")
+print ()
+print ("a. 1, 3, 7")
+print ("b. 2, 3, 4")
+print ("c. 5, 6, 7")
+print ("d. All of them.")
+print ()
+fn = input()
+if fn == "a" or "b" or "c":
+    print ("Score 5 points!")
+    t += 5
+if fn == "d":
+    print ("Score 20 points!")
+    t += 10
+else:
+    print ("Score 0 points.")
+    print ()
+	  
+print ("Press enter to continue.")
+ff = input()
+print ("\033[H\033[J")
+print ("*** Part Eleven ***")
+print ()
+
+A = 0
+B = 0
+C = 0
+D = 0
+E = 0
+F = 0
+G = 0
+H = 0
+I = 0
+J = 0
+
+A =  {"Director":"Stephen Spielberg", "movies":"E.T.","Ratings":"98%"}
+B =  {"Director":"Martin Scorsese", "movies":"Taxi Driver" , "Ratings":"99%"}
+C =  {"Director":"Quentin Tarantino", "movies":"Pulp Fiction" , "Ratings":"94%"}    
+D =  {"Director":"Stanley Kubrick", "movies":"Dr Strangelove", "Ratings":"97%"}   
+E =  {"Director":"Ridley Scott", "movies":"Blade Runner", "Ratings":"92%"}
+F =  {"Director":"Alfred Hitchcock", "movies":"North by Northwest" , "Ratings":"90%"}
+G =  {"Director":"Brian De Palmer", "movies":"Carrie", "Ratings":"95%"}
+H =  {"Director":"Clint Eastwood", "movies":"High Plains Drifter", "Ratings":"96%"}
+I =  {"Director":"John Michael McDonagh", "movies":"The Guard", "Ratings":"91%"}
+J =  {"Director":"Arthur Penn", "movies":"The Left-Handed Gun", "Ratings":"93%" }
+a = 0
+b = 0
+c = 0
+ee = 0
+N = 0
+r = 0
+xa = 0 
+xb = 0
+y = []
+random_list = []
+Directors = []
+
+#import pprint
+print (A["Director"],", ", A["Ratings"])
+print (B["Director"],", ", B["Ratings"])
+print (C["Director"],", ", C["Ratings"])
+print (D["Director"],", ", D["Ratings"])
+print (E["Director"],", ", E["Ratings"])
+print (F["Director"],", ", F["Ratings"])
+print (G["Director"],", ", G["Ratings"])
+print (H["Director"],", ", H["Ratings"])
+print (I["Director"],", ", I["Ratings"])
+print (J["Director"],", ", J["Ratings"])
+print()
+print()
+
+print ("Sort these Directors by Name or Rating.")
+print()
+print ("Enter Name or Rating: ")
+da = input()
+print()
+Directors.append(da)
+Directors.sort()
+for Director in Directors:
+    print (Director)
+print()
+print ("*** Score 5 points! ***")
+print()
+print()
+t += 5
+print ("Press enter to continue.")
+fa = input()
+print ("\033[H\033[J")
+print (A["Director"],", ", A["Ratings"])
+print (B["Director"],", ", B["Ratings"])
+print (C["Director"],", ", C["Ratings"])
+print (D["Director"],", ", D["Ratings"])
+print (E["Director"],", ", E["Ratings"])
+print (F["Director"],", ", F["Ratings"])
+print (G["Director"],", ", G["Ratings"])
+print (H["Director"],", ", H["Ratings"])
+print (I["Director"],", ", I["Ratings"])
+print (J["Director"],", ", J["Ratings"])
+print()
+print()
+print ("Next Name or Rating: ")
+db = input()
+print()
+Directors.append(db)
+Directors.sort()
+for Director in Directors:
+    print (Director)
+print ()
+print ("*** Score 10 points! ***")
+print()
+print()
+t += 10
+print ("Press enter to continue.")
+fc = input()
+print ("\033[H\033[J")
+print (A["Director"],", ", A["Ratings"])
+print (B["Director"],", ", B["Ratings"])
+print (C["Director"],", ", C["Ratings"])
+print (D["Director"],", ", D["Ratings"])
+print (E["Director"],", ", E["Ratings"])
+print (F["Director"],", ", F["Ratings"])
+print (G["Director"],", ", G["Ratings"])
+print (H["Director"],", ", H["Ratings"])
+print (I["Director"],", ", I["Ratings"])
+print (J["Director"],", ", J["Ratings"])
+print()
+print()
+print ("Next Name or Rating: ")
+dc = input()
+print()
+Directors.append(dc)
+Directors.sort()
+for Director in Directors:
+    print (Director)
+print ()
+print ("*** Score 15 points! ***")
+print()
+print()
+t += 15
+print ("Press enter to continue.")
+fd = input()
+print ("\033[H\033[J")
+print (A["Director"],", ", A["Ratings"])
+print (B["Director"],", ", B["Ratings"])
+print (C["Director"],", ", C["Ratings"])
+print (D["Director"],", ", D["Ratings"])
+print (E["Director"],", ", E["Ratings"])
+print (F["Director"],", ", F["Ratings"])
+print (G["Director"],", ", G["Ratings"])
+print (H["Director"],", ", H["Ratings"])
+print (I["Director"],", ", I["Ratings"])
+print (J["Director"],", ", J["Ratings"])
+print()
+print()
+print ("Next Name or Rating: ")
+dd = input()
+print()
+Directors.append(dd)
+Directors.sort()
+for Director in Directors:
+    print (Director)
+print()
+print ("*** Score 20 points! ***")
+print()
+t += 20
+print ("Press enter to continue.")
+fe = input()
+print ("\033[H\033[J")
+print (A["Director"],", ", A["Ratings"])
+print (B["Director"],", ", B["Ratings"])
+print (C["Director"],", ", C["Ratings"])
+print (D["Director"],", ", D["Ratings"])
+print (E["Director"],", ", E["Ratings"])
+print (F["Director"],", ", F["Ratings"])
+print (G["Director"],", ", G["Ratings"])
+print (H["Director"],", ", H["Ratings"])
+print (I["Director"],", ", I["Ratings"])
+print (J["Director"],", ", J["Ratings"])
+print()
+print()
+print ("Next Name or Rating: ")
+de = input()
+print()
+Directors.append(de)
+Directors.sort()
+for Director in Directors:
+    print (Director)
+print ()
+print ("*** Score 25 points! ***")
+print()
+print()
+t += 25
+print ("Press enter to continue.")
+fg = input()
+print ("\033[H\033[J")
+print (A["Director"],", ", A["Ratings"])
+print (B["Director"],", ", B["Ratings"])
+print (C["Director"],", ", C["Ratings"])
+print (D["Director"],", ", D["Ratings"])
+print (E["Director"],", ", E["Ratings"])
+print (F["Director"],", ", F["Ratings"])
+print (G["Director"],", ", G["Ratings"])
+print (H["Director"],", ", H["Ratings"])
+print (I["Director"],", ", I["Ratings"])
+print (J["Director"],", ", J["Ratings"])
+print()
+print()
+print ("Next Name or Rating: ")
+de = input()
+print()
+Directors.append(de)
+Directors.sort()
+for Director in Directors:
+    print (Director)
+print ()
+print ("*** Score 30 points! ***")
+print()
+print()
+t += 30
+print ("Press enter to continue.")
+fh = input()
+print ("\033[H\033[J")
+print (A["Director"],", ", A["Ratings"])
+print (B["Director"],", ", B["Ratings"])
+print (C["Director"],", ", C["Ratings"])
+print (D["Director"],", ", D["Ratings"])
+print (E["Director"],", ", E["Ratings"])
+print (F["Director"],", ", F["Ratings"])
+print (G["Director"],", ", G["Ratings"])
+print (H["Director"],", ", H["Ratings"])
+print (I["Director"],", ", I["Ratings"])
+print (J["Director"],", ", J["Ratings"])
+print()
+print()
+print ("Next Name or Rating: ")
+df = input()
+print()
+Directors.append(df)
+Directors.sort()
+for Director in Directors:
+    print (Director)
+print()
+print ("*** Score 35 points! ***")
+print()
+print()
+t += 35
+print ("Press enter to continue.")
+fh = input()
+print ("\033[H\033[J")
+print (A["Director"],", ", A["Ratings"])
+print (B["Director"],", ", B["Ratings"])
+print (C["Director"],", ", C["Ratings"])
+print (D["Director"],", ", D["Ratings"])
+print (E["Director"],", ", E["Ratings"])
+print (F["Director"],", ", F["Ratings"])
+print (G["Director"],", ", G["Ratings"])
+print (H["Director"],", ", H["Ratings"])
+print (I["Director"],", ", I["Ratings"])
+print (J["Director"],", ", J["Ratings"])
+print()
+print()
+print ("Next Name or Rating: ")
+dg = input()
+print()
+Directors.append(dg)
+Directors.sort()
+for Director in Directors:
+    print (Director)
+print ()
+print ("*** Score 40 points! ***")
+print()
+print()
+t += 40
+print ("Press enter to continue.")
+fi = input()
+print ("\033[H\033[J")
+print (A["Director"],", ", A["Ratings"])
+print (B["Director"],", ", B["Ratings"])
+print (C["Director"],", ", C["Ratings"])
+print (D["Director"],", ", D["Ratings"])
+print (E["Director"],", ", E["Ratings"])
+print (F["Director"],", ", F["Ratings"])
+print (G["Director"],", ", G["Ratings"])
+print (H["Director"],", ", H["Ratings"])
+print (I["Director"],", ", I["Ratings"])
+print (J["Director"],", ", J["Ratings"])
+print()
+print()
+print ("Next Name or Rating: ")
+dh = input()
+print()
+Directors.append(dh)
+Directors.sort()
+for Director in Directors:
+    print (Director)
+print ()
+print ("*** Score 45 points! ***")
+print()
+print()
+t += 45
+print ("Press enter to continue.")
+fj = input()
+print ("\033[H\033[J")
+print (A["Director"],", ", A["Ratings"])
+print (B["Director"],", ", B["Ratings"])
+print (C["Director"],", ", C["Ratings"])
+print (D["Director"],", ", D["Ratings"])
+print (E["Director"],", ", E["Ratings"])
+print (F["Director"],", ", F["Ratings"])
+print (G["Director"],", ", G["Ratings"])
+print (H["Director"],", ", H["Ratings"])
+print (I["Director"],", ", I["Ratings"])
+print (J["Director"],", ", J["Ratings"])
+print()
+print()
+print ("Next Name or Rating: ")
+di = input()
+print()
+Directors.append(di)
+Directors.sort()
+for Director in Directors:
+    print (Director)
+print ()
+print ("*** Score 50 points! ***")
+t += 50
+print ("Way to go!!!")
+print()
+print()
+print ("Press enter to continue.")
+fl = input()
+print ("\033[H\033[J")
+def getTop5():
+  print ("*** Part Twelve ***")
+print ()
+print ("Chadwick Boseman starred in many movies but here are 4 ")
+print ("of the Top 5. Can you identify the missing movie?")
+print ()
+print ("1. Black Panther (2018)")
+print ("2. Ma Rainey's Black Bottom (2020)")
+print ("3. Da 5 Bloods (2020)")
+print ("4.  ")
+print ("5. Marshall (2017)")
+print ()
+print ()
+i = 0
+j = 0
+ka = 0
+for j in range(3):
+  import random
+for i in range (8):
+  n = random.randint(41,49)
+  print ("Is the movie called: ", n, "(2013)  Y/N")
+  k = input()
+  if k == "Y":
+    print ()
+    print ("1. Black Panther (2018)")
+    print ("2. Ma Rainey's Black Bottom (2020)")
+    print ("3. Da 5 Bloods (2020)")
+    print ("4.", n, "(2013)")
+    print ("5. Marshall (2017)")
+    print ()
+    print ()
+    if n == 42:
+	    print ("Score 20 points!")
+	    print ()
+	    t += 20
+	    i += 5
+      #j += 2
+	    print ("The 2013 Chadwick Boseman movie is '42'. ")
+	    print ()
+    else:
+	    print ("Error. Play again Y/N?")
+	    ka = input()
+	    if ka == "N":
+		     print ("Score 0 points.")
+		     print ()
+		     quit
+	    if ka == "Y":
+		     i = 0
+			# i += 1
+if k == "Y":
+      i += 1
+if n == 42:
+	  quit
+print ("Score 0 points.")
+print ("Press enter to continue.")
+gb = input()
+print ("\033[H\033[J")
+#JumbleSpellerInPython
+#JumbleSpellerInPython
+print ("*** Part Twelve ***")
+print ()
+g = 0
+WORDS = ["Kyra Sedgewick", "Jennifer Lawrence", "John Lithgow", "Gary Oldman",
+"Tom Cruise", "Jennifer Aniston", "Kevin Costner", "Britney Spearsar", "Helen Mirren",
+"Colin Firth", "Sean Penn", "Julia Roberts", "Meryl Streep"]
+import random
+word = random.choice(WORDS)
+correct = word
+jumble = ""
+while word:
+    position = random.randrange(len(word))
+    jumble += word[position]
+    word = word [:position] + word [(position + 1): ]
+print ("These people have one thing in common - they co-starred with ")
+print ("Kevin Bacon.")
+print ()
+print ("Press enter to continue.")
+g = input ()
+print ("\033[H\033[J")
+
+for r in range (1):
+  print ("\033[H\033[J")
+  print ("Kyra Sedgewick")
+  print ("Jennifer Lawrence")
+  print ("John Lithgow") 
+  print ("Gary Oldman")
+  print ("Tom Cruise") 
+  print ("Jennifer Aniston") 
+  print ("Kevin Costner") 
+  print ("Britney Spears")
+  print ("Helen Mirren")
+  print ("Colin Firth")
+  print ("Sean Penn")
+  print ("Julia Roberts")
+  print ("Meryl Streep")
+  print ()
+  print ()
+  print ("MOVIE STAR: ", jumble)
+  ga = 0
+  print ("Your guess: ")
+  ga = input ()
+  print ()
+  if ga == correct:
+        print ("You guessed it!")
+        print ("Score 10 points!")
+        t += 10
+  else:
+	    print ("Score 0 points.")
+print ()
+r += 1  
+  
+print ("Press enter to continue.")
+gg = input()
+print ("\033[H\033[J")
+
+print ("*** Part Thirteen ***")
+print ()
+AAa = { "Start" : "A. Alice Through the Looking _____(2016).", "Finish" : "Glass" }
+AAb = { "Start" : "B. The Lone ______(2013).", "Finish" : "Ranger" }
+AAc = { "Start" : "C. Alice in __________(2010).", "Finish" : "Wonderland" }
+AAd = { "Start" : "D. The Demon Barber of Fleet ______(2007).", "Finish" : "Street" }
+AAe = { "Start" : "E. Dark _______(2012).", "Finish" : "Shadows" }
+AAg = { "Start" : "F. Corpse _____(2005).", "Finish" : "Bride" }
+
+print ("Johnny Depp and Helen Bonham Carter starred together in these")
+print ("popular movies. Can you finish the titles?")
+
+j = 0
+k = 0
+s = 0
+
+print (AAa ["Start"] )
+print (AAb ["Start"] )
+print (AAc ["Start"] )
+print (AAd ["Start"] )
+print (AAe ["Start"] )
+print (AAg ["Start"] )
+print ("Johnny Depp and Helen Bonham Carter starred together in these")
+print ("popular movies. Can you finish the titles?")
+
+while k in range (10):
+
+  s = 0
+  print ()
+  hi = input ("A:\n")
+  hj = input ("B:\n")
+  hk = input ("C:\n")
+  hl = input ("D:\n")
+  hm = input ("E:\n")
+  hn = input ("F:\n")
+  print ()
+  if hi == "Glass":
+       print (AAa ["Start"], "[", hi, "]" )
+       s += 1
+  else:
+       print (AAa ["Start"], "[*****]")
+  if hj == "Ranger":
+     print (AAb ["Start"], "[", hj, "]" )
+     s += 1
+  else:
+       print (AAb ["Start"], "[******]")
+  if hk == "Wonderland":
+       print (AAc ["Start"], "[", hk, "]" )
+       s += 1
+  else:
+       print (AAc ["Start"], "[**********]")
+  if hl == "Street":
+       print (AAd ["Start"], "[", hl, "]" )
+       s += 1
+  else:
+       print (AAd ["Start"], "[******]")
+  if hm == "Shadows":
+       print (AAe ["Start"], "[", hm, "]" )
+       s += 1
+  else:
+       print (AAe ["Start"], "[*******]")
+  if hn == "Bride":
+       print (AAg ["Start"], "[", hn, "]" )
+       s += 1
+  else:
+       print (AAg ["Start"], "[*****]")
+  if s == 6:
+       print ("Well Done! You have all the Movies.")
+       print ()
+       print ("Score 50 points!")
+       t += 50
+       k += 10
+	  
+  else:
+      print ()  
+      print ("Try again? Y/N\n")
+      j = input ()
+  if j == "Y":
+      k += 10
+  elif j == "N":
+      print ("Score 0 points.")
+      k += 10
+print ()
+print ("GAME OVER ")
+print ()
+
+
+if t <= 350:
+     print ("Better luck next time.")
+else:
+    print ("Total Score: ", t, "points.")	
+print ()
+print (t, "is a good score! Existing information suggests that you ")
+if 401 < t < 450:
+	print ("might prefer to watch a Harry Potter movie .")
+elif 351 < t < 400:
+    print ("might prefer to watch 'Toy Story'.")
+elif 451 < t < 500:
+	print ("might prefer to watch a movie starring Emma Stone." )
+elif t>= 501:
+	print ("might prefer to watch a movie starring Kevin Bacon.")
+
+
+##################################
