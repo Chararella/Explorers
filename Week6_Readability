@@ -1,0 +1,87 @@
+print("Readability")
+print()
+chars = input ("Text: ")
+print()
+num1 = len(chars)
+#print (num1)
+letters = 0
+res = 0
+w = 0
+num2 = len(chars.split())
+#print (num2)
+
+l = letters
+letters = num1 - num2
+print ("The number of letters is: " + str(letters))
+l = (letters)
+#letters,words,sentances
+
+res = w
+res = len(chars.split())
+print ("The number of words is: " + str(res))
+#lw = 0
+string = 0
+sentence_count = 0
+sentences = 0
+
+seen_end = False
+sentence_end = {"?", "!","."}
+for c in chars:
+  if c in sentence_end:
+    if not seen_end == True:
+      sentence_count += 1
+  continue
+seen_end == False
+#print (sentence_count)
+print ("The number of sentences is: " + str(sentence_count))
+s = sentence_count
+v = 100
+lw = 0
+sw = 0
+index = 0
+Readability = 0
+v = 100
+r = 0
+a = 0
+b = 0
+t = 0
+#print (str(v) /  str(w))
+
+v == 100
+print("-" *50)
+print()
+print ("There are: ")
+print()
+#print(100/res)== a
+print (100/res*l)== b
+b*0.0588==s
+str(b) == str(lw)
+print()
+print ("letters per 100 words.")
+print()
+print ("There are: ")
+print()
+#print(100/res)== a
+print(100/res*s)== c
+(0.2960)*(100/res*s) ==t
+str(c) == str(sw)
+print()
+print ("sentences per 100 words.")
+print()
+#print (0.0588*(100/res)*l)==s
+#print (0.296*(100/res)*s)==t
+print ("Index =  ")
+print ((0.0588*(100/res)*l)-(0.296*(100/res)*s)-15.8) == index
+#print ( index // 1)
+#print ((s)-(t))==(u)
+#print (u - (15.8)) ==index
+#str(float((0.0588 * lw - 0.296 * sw - 15.8)))== index
+print()
+print("-" *50)
+print()
+print("Readability: Grade ")
+r = (round((0.0588*(100/res)*l)-(0.296*(100/res)*s)-15.8  )  )
+if r <= 16:
+  print(r)
+if r > 16:
+  print("16+")
