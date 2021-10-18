@@ -1,0 +1,201 @@
+print("************FIFTYVILLE*************************************")
+print()
+print("The King of Bohemia bought his Wife, Queen of Bohemia, an") 
+print("expensive faberge duck egg for their Wedding, affectionately")
+print("known of as 'The Duck'. The Wife was delighted and promised to")
+print("keep it on her at all times. The cost of The Duck was a cool")
+print("£33 million pounds. Now the King of Bohemia had an")
+print("assistant called Irene Adler who was his spy and lover.") 
+print("Irene claimed that The Duck was not real, that there had been")
+print("made a copy and this had been switched for the real egg.")
+print("Irene said that she could prove The Duck was a fake from a")
+print("photograph someone gave her. She was lent The Duck for a soiree")
+print("that evening and she said she would take some photos and get an")
+print("expert to judge which duck egg was authentic and which was a fake.")
+print("The skills of John Clay, murderer, thief and forger, were")
+print("employed to investigate. He set up an elaborate web of")
+print("crimes to send a message to the dealers, knowing that they") 
+print("would be watching every movement on their top secret cameras.")
+print("John contacted a pawn broker, Mr Merryweather, who said he was")
+print("interested in buying The Duck and could raise the funds")
+print("asap, as he kept a huge amount of bullion in a vast cellar with")
+print("3 security doors. John arranged for fake credit cards used and ")
+print("burglaries committed all around the area to deliver the")
+print("information back to a Bohemian nobleman, Count Von Kramm.")
+print("For this he hired the service of two Hitmen, to send two")
+print("messages about the status of the faberge duck eggs, one labelled")
+print("'A', which was authentic, and the other, labelled 'C', which")
+print("was fake. Two sets of crimes took place at the same time, by")
+print("the two separate Hitmen. Meanwhile John Clay, who had the photos") 
+print("of The Duck, had been lead to believe that The Duck was a fake")
+print("and the real 'Duck' was on display at CS50. Armed with a gun")
+print("and the photos he sought the professional opinion of gold")
+print("dealers as to the true worth of The Duck all while the robberies")
+print("and forgeries were taking place. One dealer offered to buy A,")
+print("The Duck, at any price including a VIP offering: a sum of £4700")
+print("commission 'for goodwill and interest'. The other dealer offered to buy C") 
+print("for £2500 including fees at 4%. The conclusion had to be")
+print("A was infact an authentic fabergee and C was a fake.") 
+print("The crimes had been pre-arranged and each pair of crimes") 
+print("happened at the same time.")
+print("Every other crime in the district had been set up with the")
+print("first letter 'A'. At the same time crimes going on were with")
+print("the first letter 'C'. This was including an unsuspecting couple,")
+print("Miss Mary Sutherland and Mr Godfrey Norton, getting married at") 
+print("St Monica. It was arranged for the bridegroom to disappear,")
+print("by none less than Irene Adler at Gross & Hankeys, from a")
+print("tip off given by a talkative taxi driver - highlighting")
+print("the Church and indicating that C had disappeared.")
+print("John Clay was seen stealing the CS50 Duck by 3 witnesses.")
+print("Realising that he had made a BIG mistake he phoned for a")
+print("flight ticket at the crime scene to make his getaway.")
+print("It is presumed that the King of Bohemia was relayed ")
+print("the message: he had an authentic egg. The CS50 Duck was") 
+print("found on a park bench later the same day.")
+print()
+print()
+print("The crime being investigated is: ")
+print("a. A theft")
+print("b. A burgulary")
+print("c. Forgery")
+print("d. Jaywalking")
+print("e. Vandalism")
+aa = input()
+print()
+print("The thief is a rogue called: ")
+print("f. Mr Merryweather")
+print("g. Miss Mary Sutherland")
+print("h. Mr Godfrey Norton")
+print("i. Mr John Clay")
+print("j. Miss Irene Adler")
+bb = input()
+print()
+print("The getaway method was: \n")
+print("k. Plane from Fiftyville Regional Airport")
+print("l. Car waiting outside the Courthouse")
+print("m. Taxi or limousine")
+print("n. A stolen vehicle")
+print("o. Speedboat")
+cc = input()
+print()
+print("The motive is:")
+print("p. Revenge")
+print("q. Money")
+print("r. Greed")
+print("s. Personal")
+print("t. Jealousy")
+dd = input()
+print()
+print("The crime took place at: ")
+print("u. No crime was commited")
+print("v. St Monica's Church")
+print("w. There were various crimes around the region")
+print("x. The courthouse, Chamberlin Street")
+print("y. The vault")
+print("z. The ATM")
+ee = input()
+xx = 0
+a = 0
+b = 0
+c = 0
+d = 0
+e = 0
+f = 0
+g = 0
+h = 0
+i = 0
+j = 0
+k = 0
+l = 0
+m = 0
+n = 0
+o = 0
+p = 0
+q = 0
+r = 0
+s = 0
+t = 0
+u = 0
+v = 0
+w = 0
+x = 0
+y = 0
+z = 0
+xx = 0
+yy = 0
+
+if aa == "a": 
+  xx += 4
+if aa == "b":
+  xx += 2
+if aa == "c":
+  xx += 3
+if aa == "d":
+  xx += 0
+if aa == "e":
+  xx += 0
+
+  
+if bb == "f":
+  xx += 2
+if bb == "g":
+  xx += 0
+if bb == "h":
+  xx += 2
+if bb == "i":
+  xx += 4
+if bb == "j":
+  xx += 3
+
+if cc == "k":
+    xx += 4
+if cc == "l":
+    xx += 2
+if cc == "m":
+    xx += 1
+if cc == "n":
+    xx += 1
+if cc == "o":
+    xx += 0
+
+if dd == "p":
+   xx += 0
+if dd == "q":
+   xx += 1
+if dd == "r":
+   xx += 3
+if dd == "s":
+   xx += 0
+if dd == "t":
+   xx += 0
+
+if ee == "u":
+   xx += 0
+if ee == "v":
+   xx += 3
+if ee == "w":
+   xx += 4
+if ee == "x":
+   xx += 5
+if ee == "y":
+   xx += 0
+if ee == "z":
+   xx += 0
+
+print()
+print("Your score is: ", xx)
+
+if int(xx) in range (0,6):
+   print("(0-5)\nYou failed to catch the criminal.")
+  
+elif int(xx) in range (6,11):
+   print("(6-10)\nYou let the criminal get away.")
+  
+elif int(xx) in range (11,16):
+   print("(11-15)\nYou nearly caught a criminal.")
+
+elif int(xx) in range (16,21):
+   print("(16-20)\nWell done, you caught the thief.")
+
+
+
