@@ -1,0 +1,20 @@
+print ("Hello, what is your name?\n")
+A = []
+AA = []
+i = 0
+A = input()
+print ()
+print ("Hello, "+ A + ". How are you today?\n")
+B = input()
+print ()
+print ("Say hello to the world!\n")
+AA = input()
+print ()
+for i in range (15):
+    print ("Hello, " + A)
+i += 1
+print ()
+print ("Have a nice day, " + A + "!")
+print ("Until next time!")
+print ()
+print ("Goodbye!")
