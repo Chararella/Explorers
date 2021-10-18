@@ -1,0 +1,56 @@
+print ("Cash or Credit")
+print()
+a =input("Card: ")
+a = a [::-1]
+print(list(a))
+c = (a [1::2])
+print (list(c))
+d = (a [1::2])
+e = (a [0::2])
+print (int(c)+ int(d))
+f = int(c) + int(d)
+total = 0
+i = 0
+print (list(e))
+g = len(a)
+print("Length: ",g )
+
+num = int(f)
+result = 0
+hold = num
+while num>0:
+  rem = num % 10
+  result = result + rem
+  num = int(num/10)
+print("The sum of", hold, "is: ", result)
+i = result
+
+num1 = int(e)
+result1 = 0
+hold1 = num1
+while num1>0:
+  rem = num1 % 10
+  result1 = result1 + rem
+  num1 = int(num1/10)
+print("The sum of", hold1, "is: ", result1)
+j = result1
+j1 = result + result1
+print("The magic number is:",j1)
+print()
+
+num2 = j1
+lastdigit=num2 % 10
+print("last digit: {}".format(lastdigit))
+if lastdigit == 0:
+  print("You have an authentic credit card.")
+
+res = [ a[0] ]
+if res == [4] and g in [13,16]: 
+  print("VISA")
+if res == [3] and g in [15]:
+  print("AMERICAN EXPRESS")
+if res == [5] and g in [16]:
+  print("MASTERCARD")
+  
+if lastdigit != 0:
+  print ("WARNING! You may have a bogus credit card.")
