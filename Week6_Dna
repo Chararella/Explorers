@@ -1,0 +1,96 @@
+"DNA"
+print()
+print("Hello, this program is called DNA.")
+print()
+print("Let me introduce you to Alice, Bob, Charlie, Daisy, Eddie, ")
+print("Frank, Glen, Harry and Iona.")
+print()
+print("These 9 people have been specially chosen because the ")
+print("nucleotides in their DNA run to a specific pattern and can be ")
+print("predicted by counting the Short Tandom Repeats (STR) in a ")
+print("portion of DNA called genome.")
+print()
+print("Can you identify the person based on their max number of STR?")
+print()
+n = 0
+#for n in range (15):
+name = ["Alice", "Bob", "Charlie", "Daisy", "Eddie", "Frank", "Glen", "Harry", "Iona"]
+
+a0 = {"name":"Alice", "AAGC":7, "AGTC":14, "ATAG":2, "aa":"a0"}
+a1 = {"name":"Bob", "AAGC":14, "AGTC":2, "ATAG":7, "aa":"a1"}
+a2 = {"name":"Charlie", "AAGC":5, "AGTC":10, "ATAG":15, "aa":"a2"}
+a3 = {"name":"Daisy", "AAGC":9, "AGTC":12, "ATAG":6, "aa":"a3"}
+a4 = {"name":"Eddie", "AAGC":6, "AGTC":9, "ATAG":12, "aa":"a4"}
+a5 = {"name":"Frank", "AAGC":10, "AGTC":15, "ATAG":5, "aa":"a5"}
+a6 =  {"name":"Glen", "AAGC":2, "AGTC":7, "ATAG":14, "aa":"a6"}
+a7 = {"name":"Harry", "AAGC":15, "AGTC":5, "ATAG":10, "aa":"a7"}
+a8 = {"name":"Iona", "AAGC":12, "AGTC":6, "ATAG":9, "aa":"a8"}
+print (a0["name"], a0["AAGC"],",", a0["AGTC"],",",a0["ATAG"])
+print (a1["name"], a1["AAGC"],",", a1["AGTC"],",",a1["ATAG"])
+print (a2["name"], a2["AAGC"],",", a2["AGTC"],",",a2["ATAG"])
+print (a3["name"], a3["AAGC"],",", a3["AGTC"],",",a3["ATAG"])
+print (a4["name"], a4["AAGC"],",", a4["AGTC"],",",a4["ATAG"])
+print (a5["name"], a5["AAGC"],",", a5["AGTC"],",",a5["ATAG"])
+print (a6["name"], a6["AAGC"],",", a6["AGTC"],",",a6["ATAG"])
+print (a7["name"], a7["AAGC"],",", a7["AGTC"],",",a7["ATAG"])
+print (a8["name"], a8["AAGC"],",", a8["AGTC"],",",a8["ATAG"])
+
+#identity = ([a0] or [a1] or [a2] or [a3] or [a4] or [a5] or [a6] or [a7] or [a8])
+aa = {"zero":a0, "one":a1, "two":a2, "three":a3, "four":a4, "five":a5, "six":a6, "seven":a7, "eight":a8}
+#keys = ["name", "AAGC", "AGTC", "ATAG", "identity"]
+#dict = { name.capitalise():{key:[]for key in keys} for name in identity}
+#i ==identity
+b = 0
+c = 0
+d = 0
+e = 0
+f = 0
+print()
+print ("Max AAGC:", end = " ")
+c = input()
+print()
+print(c)
+print()
+d = 0
+print("Max AGTC:", end = " ")
+d = input()
+print()
+print(d)
+print()
+print("Max ATAG:", end = " ")
+e = input()
+print()
+print(e)
+print()
+print("Checking our records...")
+print("Press return to find out the results:")
+b = input()
+print()
+
+print ("-------------------------------------------------------------")
+print ()
+f = (c,d,e)
+#print (f)
+if f == ("7","14","2"):
+   print ("The person you identified is Alice.")
+elif f == ("14","2","7"):
+   print ("The person you identified is Bob.")
+elif f == ("5","10","15"):
+   print ("The person you identified is Charlie.")
+elif f == ("9","12","6"):
+   print ("The person you identified is Daisy.")
+elif f == ("6","9","12"):
+   print ("The person you identified is Eddie.")
+elif f == ("10","15","5"):
+   print ("The person you identified is Frank.")
+elif f == ("2","7","14"):
+   print ("The person you identified is Glen.")
+elif f == ("15","5","10"):
+   print ("The person you identified is Harry.")
+elif f == ("12","6","9"):
+   print ("The person you identified is Iona.")
+else:
+   print ("No match.")
+print ()
+print ("---------------------------------------------------------------")
+
