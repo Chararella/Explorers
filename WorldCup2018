@@ -1,0 +1,151 @@
+import random
+a1 = [6,4,4,3,3,2,1,1,1,1]
+a2 = [5,5,4,4,3,3,2,2,1,1]
+a3 = [5,5,4,4,3,3,3,3,2,2]
+a4 = [4,4,4,3,3,2,2,2,2,1]
+a5 = [4,3,3,3,2,2,2,2,1,1]
+a6 = [3,3,3,3,2,2,2,1,1,1]
+a7 = [3,3,2,2,2,2,1,1,1,0]
+a8 = [3,3,3,2,2,1,1,1,1,0]
+a9 = [3,3,2,2,2,1,1,1,0,0]
+a10 = [3,2,2,2,1,1,1,0,0,0]
+a11 = [2,2,2,2,1,1,0,0,0,0]
+a12 = [2,2,2,1,1,0,0,0,0,0]
+a13 = [2,2,1,1,0,0,0,0,0,0]
+a14 = [2,1,1,0,0,0,0,0,0,0]
+a1 = random.choice (a1)
+a2 = random.choice (a2)
+a3 = random.choice (a3)
+a4 = random.choice (a4)
+a5 = random.choice (a5)
+a6 = random.choice (a6)
+a7 = random.choice (a7)
+a8 = random.choice (a8)
+a9 = random.choice (a9)
+a10 = random.choice (a10)
+a11 = random.choice (a11)
+a12 = random.choice (a12)
+a13 = random.choice (a13)
+a14 = random.choice (a14)
+
+aa = [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14]
+
+print ("                      World Cup!          ")
+print ()
+print ()
+import random
+i = 0
+b = 0
+print ("Level 1")
+print ()
+print ("Press click and return to start: ")
+for i in range (14):
+  team1 = 0
+  team1 = random.choice, (team1)
+  team1 = ["Belgium", "Brazil", "Portugal", "Spain", "Switzerland", "Argentina", "England",
+  "France", "Denmark", "Croatia", "Columbia", "Sweden", "Uruguay", "Mexico"]
+  team1.pop(random.randrange(len(team1)))
+  str(team1)
+  team2 = 0
+  team2 = random.choice, (team2)
+  team2 = ["Belgium", "Brazil", "Portugal", "Spain", "Switzerland", "Argentina", "England",
+  "France", "Denmark", "Croatia", "Columbia", "Sweden", "Uruguay", "Mexico"]
+  team2.pop(random.randrange(len(team1)))
+  str(team2)
+
+
+  b == input()
+  print (random.choice(team1),":",random.choice(aa), end = ",  ")
+  print (random.choice(team2),":",random.choice(aa))
+i += 1
+
+c = input ()
+x = 0
+bb = 0
+#def clear():
+print ("\033[H\033[J")
+
+print ("Level 2")
+d = input ()
+y = 0
+for y in range (6):
+  print ()
+  print ("Enter the score for the team: ")
+  print ()
+  print (random.choice(team1),": ", end = "")
+  bb = input()
+  print (end = "")
+  print (random.choice(team2),": ",random.choice(aa))
+  y += 1
+e = input ()
+print ("\033[H\033[J")
+
+print ("Level 3")
+cc = [5,5,5,4,3]
+dd = [3,3,3,2,1]
+ee = [2,2,2,3,1]
+ff = [1,1,1,0,0]
+cc = random.choice (cc)
+dd = random.choice (dd)
+ee = random.choice (ee)
+ff = random.choice (ff)
+h = input ()
+print ("This is the big match final!")
+print ("Who will win the tournament?")
+print ()
+print ("Guess the scores: ")
+print ()
+print ("Belgium vs Croatia")
+input ()
+print ("Belgium: ", ee, "Crotia: ", dd," \n",)
+print ()
+print ("Guess the scores: ")
+print ()
+print ("Croatia vs France")
+input ()
+print ("Croatia: ", dd, "France: ", cc," \n",)
+print ()
+print ("Guess the scores: ")
+print ()
+print ("France vs England")
+input ()
+print ("France: ", cc, "England: ", ff," \n",)
+print ()
+print ("Guess the scores: ")
+print ()
+print ("Croatia vs France")
+input ()
+print ("Croatia: ", dd, "France: ", cc," \n",)
+print ()
+print ("Guess the scores: ")
+print ()
+print ("England vs Belgium")
+input ()
+print ("England: ", ff, "Belgium: ", ee," \n",)
+print ()
+print ("Guess the scores: ")
+print ()
+print ("Croatia vs England")
+input ()
+print ("Croatia: ", dd, "England: ", ff," \n",)
+print ()
+print ("Guess the scores: ")
+print ()
+print ("Belgium vs Croatia")
+input ()
+print ("Belgium: ", ee, "Croatia: ", dd," \n",)
+print ()
+print ("Guess the scores: ")
+print ()
+print ("France vs Belgium")
+input ()
+print ("France: ", cc, "Belgium: ", ee," \n",)
+print ()
+print ("The scores are in!")
+print ("In third place is Belguim with", ee, "point(s),\n",)
+print ("In second place is Croatia with", dd + 2, "points,\n",)
+print ("And the winner with", cc + 4, "points is France!")
+print ()
+print ("France wins the World Cup 2018!")
+
+
