@@ -1,0 +1,133 @@
+#Chatbot
+print("")
+def main():
+    print()
+a = 0
+b = 0
+c = 0
+d = 0
+e = 0
+f = 0
+g = 0
+h = 0
+j = 0
+
+(description_green) = 0
+(description_yellow) = 0
+(description_blue) = 0
+(description_orange) = 0
+(description_pink) = 0
+(description_red) = 0
+(description_white) = 0
+(description_purple) = 0
+(description_black) = 0
+
+print("Welcome to Speed Dating! What is your name?")
+name = input()
+print("Hello,", name, ".")
+import random
+fav_color = ["green", "yellow", "blue", "orange", "pink", "red", "white", "purple"]
+fav_color = random.choice (fav_color)
+print("What is your favorite color?")
+cl = input()
+cl = cl.lower()
+if (fav_color) == (cl):
+    print("Snap!", cl, "is my favorite color too!")
+else:
+    print("My favorite color is", fav_color, "but", end=" ")
+print("I like", cl, "too!")
+
+
+description_green = ["emeralds in the dark.", "the green, green grass of home.", "a moody sea.", "leaves in the rain."]
+description_yellow = ["sunshine on a rainy day.", "sun, sea and sand.", "my first banana.", "Van Gogh's Sunflowers."]
+description_blue = ["the rain on a rainy day.", "a cloudless sky.", "a deep, deep swimming pool.", "a waterfall."]
+description_orange = ["the setting sun.", "a fruitbowl.", "a halo.", "a wallflower."]
+description_pink = ["a flower.", "candyfloss.", "a rose.", "a sunset."]
+description_red = ["a deep rose.", "an apple.", "strawberries.", "a redwood tree."]
+description_white = ["a snowy landscape.", "the snow in winter.", "a snowdrop.", "fluffy white clouds."]
+description_purple = ["sugared violets.", "nectarines and plums.", "elephants.", "rainbows."]
+description_black = ["midnight.", "black cats, the magic ones.", "Space and beyond.", "jet black coal."]
+
+description_green == random.choice, (a) 
+description_yellow == random.choice, (b)
+description_blue == random.choice,  (c)
+description_orange == random.choice,  (d)
+description_pink == random.choice, (e)
+description_red == random.choice,  (f)
+description_white == random.choice,  (g)
+description_purple == random.choice,  (h)
+description_black == random.choice,  (j)
+
+print("It reminds me of", end = " ")
+
+
+import random
+import secrets
+gg = 0
+if cl == "green":
+       print(random.choice(description_green))
+if cl == "yellow":
+       print(random.choice(description_yellow))
+if cl == "blue":
+       print(random.choice(description_blue))
+if cl == "orange":
+       print(random.choice(description_orange))
+if cl == "pink":
+       print(random.choice(description_pink))  
+if cl == "red":
+       print(random.choice(description_red))
+if cl == "white":
+       print(random.choice(description_white))
+if cl == "purple":
+       print(random.choice(description_purple))
+if cl == "black":
+	   print(random.choice(description_black))
+
+def main (nltk):
+    nltk.download()
+print("What do you think about global warming?")
+ba = input() 
+warming = ["Isn't it terrible that the earth is heating up? Or it might be cooling down, we don't know.", "The earth is going through a drastic climate change. We have to do something now.",
+"Global Warming will lead to drought, famine and flooding. It is beyond imagination.", "You can do your bit for global warming by keeping track of your carbon footprint.", "It reminds me of the Green Revolution. The Green Revolution was when people became environmentally aware."]  
+warming == random.choice, warming
+print(random.choice(warming))
+
+import random
+attributes = ["eyes", "lips", "teeth", "hair", "hands", "shoes"]
+attributes == (random.choice), attributes
+print("Can I just say, you have very nice", end =" ")
+n = (random.choice (attributes))
+print(n, "don't you?")
+ab = input()
+
+print("What do you think about fox hunting?")
+ac = input()
+foxes = ["Fox hunting is a very cruel sport.", "It is a shame the foxes have to get hurt.",
+"The foxes like to catch chickens down on the farm. The farmer says he is keeping the numbers down.",
+"The foxes usually die of exhaustion when they are chased across woodland."]
+foxes == random.choice, foxes
+print(random.choice(foxes))
+
+print("Do you like animals?")
+bc = input()
+print("I don't have any pets but if I had one it would be a horse.I like horses.")
+
+print("Can I ask where you live?")
+ca = input()
+locality = ["That is my favorite place in the world! I used to live there.", "Small world. That's where I used to live.", 
+"I must go there sometime.", "I know the area. It's a lovely place.", "I wish I lived there.", "OK, that's a great place to live!"]
+locality == random.choice, locality
+print(random.choice(locality))
+print("Have I seen you somewhere before? Maybe on television?")
+cb = input()
+print("Well, what do you think? Will we meet up again? Yes/No?")
+cd = input()
+if cd == "Yes":
+    print("Great. We'll go out for drinks. Thanks for your company! Until next time.")
+if cd == "No":
+    print("Sorry. I had a good time.")
+ce = input()
+print("Goodbye.")
+################
+
+  
